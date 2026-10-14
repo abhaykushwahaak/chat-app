@@ -1,19 +1,19 @@
-<h1 align="center">✨ Full-Stack Real-Time Chat App (FastAPI & React) ✨</h1>
+<h1 align="center"> Full-Stack Real-Time Chat App (FastAPI & React) </h1>
 
-## 🚀 Highlights
+##  Highlights
 
-- 🔐 **Custom JWT Authentication** (HttpOnly cookies)
-- ⚡ **Real-time Messaging** via Python Socket.IO
-- 🟢 **Online/Offline Presence Indicators**
-- 🔔 **Notification & Typing Sounds** (with toggle)
-- 📨 **Welcome Emails on Signup** (Resend SDK)
-- 🗂️ **Image Uploads** (Cloudinary)
-- 🐍 **Asynchronous REST API** powered by **Python FastAPI** & Uvicorn
-- 🧱 **MongoDB** with **Beanie ODM** (Motor driver) for async data persistence
-- 🚦 **API Rate-Limiting** powered by **SlowAPI**
-- 🎨 **Beautiful UI** built with React, Tailwind CSS & DaisyUI
-- 🧠 **Zustand** for global state management
-- 📖 **Auto-generated API Docs** via Swagger UI (`/docs`) & ReDoc (`/redoc`)
+- **Custom JWT Authentication** (HttpOnly cookies)
+- **Real-time Messaging** via Python Socket.IO
+- **Online/Offline Presence Indicators**
+- **Notification & Typing Sounds** (with toggle)
+- **Welcome Emails on Signup** (Resend SDK)
+- **Image Uploads** (Cloudinary)
+- **Asynchronous REST API** powered by **Python FastAPI** & Uvicorn
+- **MongoDB** with **Beanie ODM** (Motor driver) for async data persistence
+- **API Rate-Limiting** powered by **SlowAPI**
+- **Beautiful UI** built with React, Tailwind CSS & DaisyUI
+- **Zustand** for global state management
+- **Auto-generated API Docs** via Swagger UI (`/docs`) & ReDoc (`/redoc`)
 
 ---
 
@@ -31,7 +31,7 @@ chatify/
 │   │   └── emails/     # Welcome email templates & handlers
 │   ├── requirements.txt
 │   └── .env.example
-├── frontend/           # React + Vite Frontend
+├── frontend/           # React  Frontend
 └── README.MD
 ```
 
@@ -63,7 +63,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ---
 
-## 🔧 Run the Backend (FastAPI)
+##  Run the Backend (FastAPI)
 
 Ensure you are using **Python 3.13**.
 
@@ -86,11 +86,11 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
-> 💡 Interactive API documentation will be available at [http://localhost:8000/docs](http://localhost:8000/docs).
+>  Interactive API documentation will be available at [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ---
 
-## 💻 Run the Frontend (React + Vite)
+## Run the Frontend (React )
 
 ```bash
 cd frontend
