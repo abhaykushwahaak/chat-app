@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```text
 chatify/
@@ -37,7 +37,7 @@ chatify/
 
 ---
 
-## 🧪 Environment Variables (`backend/.env`)
+## Environment Variables (`backend/.env`)
 
 Create a `.env` file inside the `backend/` directory:
 
